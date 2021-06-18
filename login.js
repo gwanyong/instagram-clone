@@ -8,7 +8,9 @@ userId.addEventListener("keyup", (e) => {
     if (e.key === "Enter") {
         validateId();
         validatePassword();
-        window.location.replace("main.html");
+        window.location.replace(
+            "https://gwanyong.github.io/instagram-clone/main.html"
+        );
     }
 });
 
@@ -17,14 +19,18 @@ userPassword.addEventListener("keyup", (e) => {
     if (e.key === "Enter") {
         validateId();
         validatePassword();
-        window.location.replace("main.html");
+        window.location.replace(
+            "https://gwanyong.github.io/instagram-clone/main.html"
+        );
     }
 });
 
 loginBtn.addEventListener("click", (e) => {
     validateId();
     validatePassword();
-    window.location.replace("main.html");
+    window.location.replace(
+        "https://gwanyong.github.io/instagram-clone/main.html"
+    );
 });
 
 const changeBtnColor = () => {
